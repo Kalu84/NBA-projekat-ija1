@@ -1,0 +1,87 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forma{
+    background-color: lime;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: aqua;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: purple;
+}
+.zanimljivo{
+    text-align: center;
+    background-color: red;
+    color: green;
+    text-decoration: none;
+    position: relative;
+    bottom: 350px;
+    font-size: 25px;
+    }
+    .zanimljivo:hover{
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        background-color: yellow;
+        color: seagreen;
+        text-decoration: none;
+    }
+.index{
+    text-align: center;
+    background-color: red;
+    color: green;
+    text-decoration: none;
+    position: relative;
+    bottom: 350px;
+    font-size: 25px;
+    right: 10px;
+}
+.index:hover{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    background-color: yellow;
+    color: seagreen;
+    text-decoration: none;
+}

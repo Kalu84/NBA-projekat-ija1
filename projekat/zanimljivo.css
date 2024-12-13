@@ -1,0 +1,56 @@
+.index{
+    text-align: center;
+    background-color: red;
+    color: green;
+    text-decoration: none;
+    position: relative;
+    bottom: -300px;
+    padding: 10px 20px;
+    font-size: 30px;
+    left: 60%;
+}
+.index:hover{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    background-color: yellow;
+    color: seagreen;
+    text-decoration: none;
+}
+.kontakt{
+    text-align: center;
+    background-color: red;
+    color: green;
+    text-decoration: none;
+    position: relative;
+    bottom: -300px;
+    padding: 10px 20px;
+    font-size: 30px;
+    left: 20%;
+    }
+    .kontakt:hover{
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        background-color: yellow;
+        color: seagreen;
+        text-decoration: none;
+    }
+    h1{
+        text-align: center;
+        color: chocolate;
+        background-color: blueviolet;
+        }
+        p{
+            text-align: center;
+            color: lawngreen;
+            font-size: 30px;
+            border: sienna;
+            background-color: purple;
+        }
+        body{
+            background-color: aqua;
+            background: url(pozadina.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
